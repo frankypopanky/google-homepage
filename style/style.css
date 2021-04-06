@@ -1,0 +1,131 @@
+body {
+    background-color: white;
+    font-family: Arial, sans serif;
+    font-size: 14px;
+    text-align: center;
+}
+input button {
+    font-size: 14px;
+    color:#222;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0.71em;
+    margin-top:1.15em;
+    align-items: baseline;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+    padding-inline: 0.6em;
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: underline;
+}
+#app-logo {
+    width: 16%;
+    vertical-align: middle;
+}
+#logoandsearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13vh;
+    object-fit: contain;
+    object-position: center bottom;
+
+}
+input[type=text] {
+    resize: none;
+    width: 582px;
+    height: 44px;
+    border: solid 1px lightgray;
+    border-radius: 24px;
+    margin-top: 0.5em;
+    row-gap: 5em;
+    font-size: 20px;
+    padding-inline: 1em;
+    padding-top: 0.2em;
+}
+input[type=text]:hover {
+    box-shadow: 1px 1px 1px 1px #e8eaec;
+}
+input[type=submit] {
+    font-size: 13.333px;
+    border: solid 1px #f8f9fa;
+    background-color: #f8f9fa;
+    margin-top: 2em;
+    padding: 0 16px;
+    border-radius: 4px;
+    width: auto;
+    height: 34px;
+    text-align: center;
+    vertical-align: center;
+    color: #3c4043;
+    height: 36px;
+    margin: 11px 4px;
+}
+input[type=submit]:hover {
+    border: solid 1px lightgray;
+
+}
+#lang-link {
+    color:blue;
+}
+#destination  {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0.71em;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    width: 100%;
+    border-bottom:1px solid #dadce0;
+    background: #f2f2f2;
+}
+#current-destination {
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    padding-left: 15px;
+
+   
+}
+
+#footer-container {
+    display: flex;
+    padding: 0 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:0 px;
+    padding-left: 0.71em;
+    background: #f2f2f2;
+    width: 100%;
+    color: rgba(0,0,0,.54);
+    max-height: 1200px;
+}
+#foot-group2 {
+    padding: 15px 15px;
+    padding-right: 35px;
+    padding-inline: 3em;
+}
+#foot-group1 {
+    padding: 15px 15px;
+    padding-inline: 1em;
+    padding-right: 30px;
+    margin-right: 3em;
+}
+#footer a{
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+}
+#footer {
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+}
